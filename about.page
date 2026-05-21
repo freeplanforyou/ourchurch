@@ -10,7 +10,7 @@
 </head>
 <body>
 
-    <!-- Mobile Side Navigation (same as index) -->
+    <!-- Mobile Side Navigation -->
     <div id="mobile-overlay" class="mobile-overlay"></div>
     <div id="mobile-menu" class="mobile-menu">
         <div class="mobile-menu-header">
@@ -22,6 +22,7 @@
             <a href="about.html"><i class="fas fa-church"></i> About</a>
             <a href="ministry.html"><i class="fas fa-hands-helping"></i> Ministry</a>
             <a href="outreach.html"><i class="fas fa-heart"></i> Outreach</a>
+            <a href="courses.html"><i class="fas fa-graduation-cap"></i> Courses</a>
             <a href="gallery.html"><i class="fas fa-images"></i> Gallery</a>
             <a href="blog.html"><i class="fas fa-newspaper"></i> Blog</a>
             <a href="resources.html"><i class="fas fa-download"></i> Resources</a>
@@ -47,6 +48,7 @@
                     <a href="about.html" class="active">About</a>
                     <a href="ministry.html">Ministry</a>
                     <a href="outreach.html">Outreach</a>
+                    <a href="courses.html">Courses</a>
                     <a href="gallery.html">Gallery</a>
                     <a href="blog.html">Blog</a>
                     <a href="resources.html">Resources</a>
@@ -72,14 +74,14 @@
             <div class="story-grid">
                 <div class="story-content">
                     <span class="section-tag">Our Story</span>
-                    <h2>Rooted in Faith, <br>Reaching the World</h2>
-                    <p>Faith Bible International Church was founded in 1995 with a simple vision: to create a community where people could encounter God through His Word and experience authentic relationships. What began as a small home Bible study has grown into a vibrant, multi-cultural church family.</p>
+                    <h2>Rooted in Faith, <br>Reaching Ethiopia and the World</h2>
+                    <p>Faith Bible International Church was founded in Gerji, Addis Ababa, with a simple vision: to create a community where people could encounter God through His Word and experience authentic relationships.</p>
                     <p>Today, we continue to hold fast to our core values: the authority of Scripture, the power of prayer, the importance of community, and the urgency of the Great Commission.</p>
                 </div>
                 <div class="story-image">
                     <div class="image-placeholder">
                         <i class="fas fa-church"></i>
-                        <span>Faith Bible Church History</span>
+                        <span>Faith Bible Church - Gerji, Addis Ababa</span>
                     </div>
                 </div>
             </div>
@@ -109,75 +111,41 @@
         </div>
     </section>
 
-    <!-- What We Believe -->
-    <section class="beliefs-section">
-        <div class="container">
-            <span class="section-tag">Our Beliefs</span>
-            <h2>What We Believe</h2>
-            <div class="beliefs-grid">
-                <div class="belief-item">
-                    <h4>The Bible</h4>
-                    <p>We believe the Bible is the inspired, infallible Word of God.</p>
-                </div>
-                <div class="belief-item">
-                    <h4>The Trinity</h4>
-                    <p>We believe in one God existing in three persons: Father, Son, and Holy Spirit.</p>
-                </div>
-                <div class="belief-item">
-                    <h4>Salvation</h4>
-                    <p>We believe salvation is by grace through faith in Jesus Christ alone.</p>
-                </div>
-                <div class="belief-item">
-                    <h4>The Church</h4>
-                    <p>We believe the Church is the body of Christ called to make disciples.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Leadership Team -->
-    <section class="leadership-section">
-        <div class="container">
-            <span class="section-tag">Leadership</span>
-            <h2>Meet Our Pastoral Team</h2>
-            <div class="leadership-grid">
-                <div class="leader-card">
-                    <div class="leader-avatar"><i class="fas fa-user-circle"></i></div>
-                    <h4>Dr. Michael Thompson</h4>
-                    <p>Senior Pastor</p>
-                </div>
-                <div class="leader-card">
-                    <div class="leader-avatar"><i class="fas fa-user-circle"></i></div>
-                    <h4>Pastor Sarah Williams</h4>
-                    <p>Associate Pastor</p>
-                </div>
-                <div class="leader-card">
-                    <div class="leader-avatar"><i class="fas fa-user-circle"></i></div>
-                    <h4>Pastor David Chen</h4>
-                    <p>Worship & Creative Arts</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-about">
                     <div class="footer-logo"><i class="fas fa-cross"></i><span>Faith Bible International Church</span></div>
-                    <p>Proclaiming Christ, Building Believers, Reaching the World.</p>
+                    <p>Gerji Mebrat Hail, Addis Ababa, Ethiopia</p>
                     <div class="footer-social">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
                         <a href="#"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
-                <div class="footer-links"><h4>Quick Links</h4><ul><li><a href="about.html">About Us</a></li><li><a href="ministry.html">Ministries</a></li><li><a href="resources.html">Resources</a></li></ul></div>
-                <div class="footer-links"><h4>Get Involved</h4><ul><li><a href="connect.html">Plan a Visit</a></li><li><a href="outreach.html">Serve</a></li><li><a href="connect.html">Prayer Request</a></li></ul></div>
-                <div class="footer-contact"><h4>Contact Us</h4><p><i class="fas fa-map-marker-alt"></i> 123 Faith Avenue, Your City, State 90210</p><p><i class="fas fa-phone"></i> (555) 123-4567</p><p><i class="fas fa-envelope"></i> hello@faithbiblechurch.org</p></div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="ministry.html">Ministries</a></li>
+                        <li><a href="courses.html">Free Courses</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Get Involved</h4>
+                    <ul>
+                        <li><a href="connect.html">Plan a Visit</a></li>
+                        <li><a href="outreach.html">Serve</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Gerji Mebrat Hail, Addis Ababa</p>
+                    <p><i class="fas fa-phone"></i> +251-XXX-XXX-XXX</p>
+                </div>
             </div>
-            <div class="footer-bottom"><p>&copy; 2025 Faith Bible International Church. All rights reserved.</p></div>
+            <div class="footer-bottom"><p>&copy; 2025 Faith Bible International Church</p></div>
         </div>
     </footer>
 
