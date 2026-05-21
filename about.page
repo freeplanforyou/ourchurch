@@ -2,16 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>Faith Bible International Church | Home</title>
-    <meta name="description" content="Faith Bible International Church - A place of worship, community, and spiritual growth. Join us for Sunday services, Bible study, and outreach programs.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Faith Bible International Church</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
 
-    <!-- Mobile Side Navigation -->
+    <!-- Mobile Side Navigation (same as index) -->
     <div id="mobile-overlay" class="mobile-overlay"></div>
     <div id="mobile-menu" class="mobile-menu">
         <div class="mobile-menu-header">
@@ -29,9 +28,7 @@
             <a href="connect.html"><i class="fas fa-envelope"></i> Connect</a>
             <a href="contact.html"><i class="fas fa-map-marker-alt"></i> Contact</a>
         </nav>
-        <div class="mobile-footer">
-            <p>© 2025 Faith Bible International Church</p>
-        </div>
+        <div class="mobile-footer"><p>© 2025 Faith Bible International Church</p></div>
     </div>
 
     <!-- Header -->
@@ -46,8 +43,8 @@
                     </div>
                 </div>
                 <nav class="desktop-nav">
-                    <a href="index.html" class="active">Home</a>
-                    <a href="about.html">About</a>
+                    <a href="index.html">Home</a>
+                    <a href="about.html" class="active">About</a>
                     <a href="ministry.html">Ministry</a>
                     <a href="outreach.html">Outreach</a>
                     <a href="gallery.html">Gallery</a>
@@ -56,123 +53,109 @@
                     <a href="connect.html">Connect</a>
                     <a href="contact.html">Contact</a>
                 </nav>
-                <button id="menu-toggle" class="mobile-toggle">
-                    <i class="fas fa-bars"></i>
-                </button>
+                <button id="menu-toggle" class="mobile-toggle"><i class="fas fa-bars"></i></button>
             </div>
         </div>
     </header>
 
-    <!-- Hero Section - Big Background -->
-    <section class="hero">
-        <div class="hero-bg"></div>
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-            <div class="hero-badge animate-fade-up">Welcome to</div>
-            <h1 class="hero-title animate-fade-up">Faith Bible <span class="highlight">International Church</span></h1>
-            <p class="hero-subtitle animate-fade-up delay-1">A global community rooted in God's Word, growing in faith, and reaching the world with love.</p>
-            <div class="hero-buttons animate-fade-up delay-2">
-                <a href="connect.html" class="btn-primary">Plan Your Visit</a>
-                <a href="ministry.html" class="btn-outline">Explore Ministries</a>
-            </div>
-        </div>
-        <div class="hero-scroll">
-            <span>Scroll</span>
-            <i class="fas fa-chevron-down"></i>
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>About Us</h1>
+            <p>Discover the heart and vision of Faith Bible International Church</p>
         </div>
     </section>
 
-    <!-- Welcome Section -->
-    <section class="welcome">
+    <!-- Our Story -->
+    <section class="story-section">
         <div class="container">
-            <div class="welcome-grid">
-                <div class="welcome-content">
-                    <span class="section-tag">Who We Are</span>
-                    <h2 class="section-title">A Church Family <br>Committed to God's Word</h2>
-                    <p>Faith Bible International Church exists to glorify God by making disciples of Jesus Christ. We are a multi-generational, multi-ethnic community dedicated to loving God and loving others.</p>
-                    <div class="features-list">
-                        <div><i class="fas fa-check-circle"></i> Spirit-led worship</div>
-                        <div><i class="fas fa-check-circle"></i> Verse-by-verse Bible teaching</div>
-                        <div><i class="fas fa-check-circle"></i> Authentic community</div>
-                        <div><i class="fas fa-check-circle"></i> Global outreach</div>
-                    </div>
-                    <a href="about.html" class="btn-secondary">Learn More About Us →</a>
+            <div class="story-grid">
+                <div class="story-content">
+                    <span class="section-tag">Our Story</span>
+                    <h2>Rooted in Faith, <br>Reaching the World</h2>
+                    <p>Faith Bible International Church was founded in 1995 with a simple vision: to create a community where people could encounter God through His Word and experience authentic relationships. What began as a small home Bible study has grown into a vibrant, multi-cultural church family.</p>
+                    <p>Today, we continue to hold fast to our core values: the authority of Scripture, the power of prayer, the importance of community, and the urgency of the Great Commission.</p>
                 </div>
-                <div class="welcome-image">
+                <div class="story-image">
                     <div class="image-placeholder">
                         <i class="fas fa-church"></i>
-                        <span>Faith Bible Church</span>
+                        <span>Faith Bible Church History</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Ministries Preview -->
-    <section class="ministries-preview">
+    <!-- Mission & Vision -->
+    <section class="mission-section">
         <div class="container">
-            <span class="section-tag">Our Ministries</span>
-            <h2 class="section-title">Find Your Place</h2>
-            <p class="section-subtitle">No matter your age or stage of life, there's a place for you at Faith Bible.</p>
-            <div class="cards-grid">
-                <div class="card">
-                    <div class="card-icon"><i class="fas fa-pray"></i></div>
-                    <h3>Worship Ministry</h3>
-                    <p>Lead others into God's presence through music and creative arts.</p>
-                    <a href="ministry.html" class="card-link">Learn More →</a>
+            <div class="mission-grid">
+                <div class="mission-card">
+                    <i class="fas fa-bullseye"></i>
+                    <h3>Our Mission</h3>
+                    <p>To glorify God by making disciples of Jesus Christ who love God, love people, and reach the world with the Gospel.</p>
                 </div>
-                <div class="card">
-                    <div class="card-icon"><i class="fas fa-children"></i></div>
-                    <h3>Children's Ministry</h3>
-                    <p>Building a strong spiritual foundation for the next generation.</p>
-                    <a href="ministry.html" class="card-link">Learn More →</a>
+                <div class="mission-card">
+                    <i class="fas fa-eye"></i>
+                    <h3>Our Vision</h3>
+                    <p>A thriving, multi-ethnic church family where every believer is equipped, engaged, and empowered for ministry.</p>
                 </div>
-                <div class="card">
-                    <div class="card-icon"><i class="fas fa-users"></i></div>
-                    <h3>Young Adults</h3>
-                    <p>Connect, grow, and serve with peers in your season of life.</p>
-                    <a href="ministry.html" class="card-link">Learn More →</a>
-                </div>
-                <div class="card">
-                    <div class="card-icon"><i class="fas fa-hand-holding-heart"></i></div>
-                    <h3>Outreach</h3>
-                    <p>Sharing Christ's love through service and missions.</p>
-                    <a href="outreach.html" class="card-link">Learn More →</a>
+                <div class="mission-card">
+                    <i class="fas fa-handshake"></i>
+                    <h3>Our Values</h3>
+                    <p>Bible-centered teaching · Authentic worship · Compassionate outreach · Generational discipleship</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- YouTube Sermons Section -->
-    <section class="sermons">
+    <!-- What We Believe -->
+    <section class="beliefs-section">
         <div class="container">
-            <span class="section-tag">Watch & Listen</span>
-            <h2 class="section-title">Latest Sermons</h2>
-            <p class="section-subtitle">Grow in your faith with our weekly messages.</p>
-            <div class="video-container">
-                <iframe src="https://www.youtube.com/embed/7l9e2tW9R8c?si=placeholder" title="Latest Sermon - Faith Bible International Church" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="social-links">
-                <a href="#" class="social-icon youtube"><i class="fab fa-youtube"></i> Subscribe on YouTube</a>
-                <a href="#" class="social-icon podcast"><i class="fas fa-podcast"></i> Listen to Podcast</a>
+            <span class="section-tag">Our Beliefs</span>
+            <h2>What We Believe</h2>
+            <div class="beliefs-grid">
+                <div class="belief-item">
+                    <h4>The Bible</h4>
+                    <p>We believe the Bible is the inspired, infallible Word of God.</p>
+                </div>
+                <div class="belief-item">
+                    <h4>The Trinity</h4>
+                    <p>We believe in one God existing in three persons: Father, Son, and Holy Spirit.</p>
+                </div>
+                <div class="belief-item">
+                    <h4>Salvation</h4>
+                    <p>We believe salvation is by grace through faith in Jesus Christ alone.</p>
+                </div>
+                <div class="belief-item">
+                    <h4>The Church</h4>
+                    <p>We believe the Church is the body of Christ called to make disciples.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Service Times -->
-    <section class="service-times">
+    <!-- Leadership Team -->
+    <section class="leadership-section">
         <div class="container">
-            <div class="times-card">
-                <div class="times-icon">
-                    <i class="fas fa-clock"></i>
+            <span class="section-tag">Leadership</span>
+            <h2>Meet Our Pastoral Team</h2>
+            <div class="leadership-grid">
+                <div class="leader-card">
+                    <div class="leader-avatar"><i class="fas fa-user-circle"></i></div>
+                    <h4>Dr. Michael Thompson</h4>
+                    <p>Senior Pastor</p>
                 </div>
-                <h3>Service Times</h3>
-                <div class="times-grid">
-                    <div><strong>Sunday Worship</strong><br>9:00 AM & 11:00 AM</div>
-                    <div><strong>Bible Study</strong><br>Wednesday 7:00 PM</div>
-                    <div><strong>Prayer Meeting</strong><br>Friday 6:30 AM</div>
+                <div class="leader-card">
+                    <div class="leader-avatar"><i class="fas fa-user-circle"></i></div>
+                    <h4>Pastor Sarah Williams</h4>
+                    <p>Associate Pastor</p>
                 </div>
-                <a href="connect.html" class="btn-outline-light">Plan Your First Visit</a>
+                <div class="leader-card">
+                    <div class="leader-avatar"><i class="fas fa-user-circle"></i></div>
+                    <h4>Pastor David Chen</h4>
+                    <p>Worship & Creative Arts</p>
+                </div>
             </div>
         </div>
     </section>
@@ -182,46 +165,19 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-about">
-                    <div class="footer-logo">
-                        <i class="fas fa-cross"></i>
-                        <span>Faith Bible International Church</span>
-                    </div>
+                    <div class="footer-logo"><i class="fas fa-cross"></i><span>Faith Bible International Church</span></div>
                     <p>Proclaiming Christ, Building Believers, Reaching the World.</p>
                     <div class="footer-social">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
                         <a href="#"><i class="fab fa-youtube"></i></a>
-                        <a href="#"><i class="fab fa-spotify"></i></a>
                     </div>
                 </div>
-                <div class="footer-links">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="ministry.html">Ministries</a></li>
-                        <li><a href="resources.html">Free Resources</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                    </ul>
-                </div>
-                <div class="footer-links">
-                    <h4>Get Involved</h4>
-                    <ul>
-                        <li><a href="connect.html">Plan a Visit</a></li>
-                        <li><a href="outreach.html">Serve</a></li>
-                        <li><a href="connect.html">Prayer Request</a></li>
-                        <li><a href="resources.html">Give</a></li>
-                    </ul>
-                </div>
-                <div class="footer-contact">
-                    <h4>Contact Us</h4>
-                    <p><i class="fas fa-map-marker-alt"></i> 123 Faith Avenue, Suite 100<br>Your City, State 90210</p>
-                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
-                    <p><i class="fas fa-envelope"></i> hello@faithbiblechurch.org</p>
-                </div>
+                <div class="footer-links"><h4>Quick Links</h4><ul><li><a href="about.html">About Us</a></li><li><a href="ministry.html">Ministries</a></li><li><a href="resources.html">Resources</a></li></ul></div>
+                <div class="footer-links"><h4>Get Involved</h4><ul><li><a href="connect.html">Plan a Visit</a></li><li><a href="outreach.html">Serve</a></li><li><a href="connect.html">Prayer Request</a></li></ul></div>
+                <div class="footer-contact"><h4>Contact Us</h4><p><i class="fas fa-map-marker-alt"></i> 123 Faith Avenue, Your City, State 90210</p><p><i class="fas fa-phone"></i> (555) 123-4567</p><p><i class="fas fa-envelope"></i> hello@faithbiblechurch.org</p></div>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Faith Bible International Church. All rights reserved.</p>
-            </div>
+            <div class="footer-bottom"><p>&copy; 2025 Faith Bible International Church. All rights reserved.</p></div>
         </div>
     </footer>
 
