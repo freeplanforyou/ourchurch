@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#0F172A] text-white antialiased;
+  }
+}
+
+@layer utilities {
+  .glass-effect {
+    @apply bg-white/5 backdrop-blur-xl border border-white/10 shadow-2xl;
+  }
+  
+  .glass-card {
+    @apply glass-effect rounded-2xl transition-all duration-300;
+  }
+  
+  .glass-card:hover {
+    @apply bg-white/10 border-purple-500/30 shadow-purple-500/10;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-purple-400 to-green-400 bg-clip-text text-transparent;
+  }
+
+  .gradient-border {
+    @apply relative rounded-2xl;
+  }
+  
+  .gradient-border::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(135deg, #7C3AED, #10B981);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+  }
+
+  .purple-glow {
+    box-shadow: 0 0 40px rgba(124, 58, 237, 0.2);
+  }
+  
+  .green-glow {
+    box-shadow: 0 0 40px rgba(16, 185, 129, 0.2);
+  }
+
+  .floating-blur {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(80px);
+    z-index: -1;
+    opacity: 0.3;
+  }
+}
